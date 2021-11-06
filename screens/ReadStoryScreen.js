@@ -69,7 +69,7 @@ export default class ReadStoryScreen extends React.Component {
            <Header 
                 backgroundColor = {'pink'}
                 centerComponent = {{
-                    text : 'Bed Time Stories',
+                    text : 'Story-Hub',
                     style : { color: 'white', fontSize: 20}
                 }}
             />

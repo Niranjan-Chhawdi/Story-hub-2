@@ -36,7 +36,7 @@ export default class WriteStoryScreen extends React.Component {
                 <Header 
                     backgroundColor = {'pink'}
                     centerComponent = {{
-                        text : 'Bed Time Stories',
+                        text : 'Story-Hub',
                         style : { color: 'white', fontSize: 20}
                     }}
                 />
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   submitButton:{
       justifyContent: 'center',
       alignSelf: 'center',
-      backgroundColor: 'pink',
+      backgroundColor: 'black',
       width: 80,
       height: 40
   },

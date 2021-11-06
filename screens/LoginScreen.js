@@ -42,7 +42,8 @@ export default class WelcomeScreen extends Component{
          last_name:this.state.lastName,
          contact:this.state.contact,
          email_id:this.state.emailId,
-         address:this.state.address
+         address:this.state.address,
+         password:this.state.password
        })
        return  Alert.alert(
             'User Added Successfully',
@@ -190,7 +191,7 @@ showModal = ()=>{
           }
         <View style={{justifyContent:'center', alignItems:'center'}}>
           {/* <SantaAnimation/> */}
-          <Text style={styles.title}>Bed Time Stories</Text>
+          <Text style={styles.title}>Created by -  Niranjan Chhawdi</Text>
         </View>
         <View>
             <TextInput
@@ -247,7 +248,7 @@ const styles = StyleSheet.create({
    alignItems:'center',
  },
  title :{
-   fontSize:65,
+   fontSize:20,
    fontWeight:'300',
    paddingBottom:30,
    color : '#ff3d00'
